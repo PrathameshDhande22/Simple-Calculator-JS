@@ -3,7 +3,7 @@ const display = document.getElementById("answertext")
 const previous = document.getElementById("previouscalc")
 
 const addAns = (value) => {
-    if (display.innerText == "Invalid Operation") {
+    if (display.innerText == "Invalid Operation" || display.innerText == "NaN") {
         display.innerText = ""
     }
     display.innerText = display.innerText + value
