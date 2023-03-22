@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body class="bg-black">
+    <div class="containercal position-absolute top-50 start-50 translate-middle">
+        <span class="title">CALCULATOR</span>
+        <div class="previous" id="previouscalc">
+        </div>
+        <div class="answer" id="answertext">
+        </div>
+        <div class="buttons">
+            <button type="button" class="btndesign">x<sup>2</sup></button>
+            <button type="button" class="btndesign" id="backtrack">C</button>
+            <button type="button" class="btndesign specialbtn" id="clearbtn">CE</sup></button>
+            <button type="button" class="btndesign specialbtn">/</button>
+            <button type="button" class="btndesign">7</button>
+            <button type="button" class="btndesign">8</button>
+            <button type="button" class="btndesign">9</button>
+            <button type="button" class="btndesign specialbtn">x</button>
+            <button type="button" class="btndesign">4</button>
+            <button type="button" class="btndesign">5</button>
+            <button type="button" class="btndesign">6</button>
+            <button type="button" class="btndesign specialbtn">-</button>
+            <button type="button" class="btndesign">1</button>
+            <button type="button" class="btndesign">2</button>
+            <button type="button" class="btndesign">3</button>
+            <button type="button" class="btndesign specialbtn">+</button>
+            <button type="button" class="btndesign">.</button>
+            <button type="button" class="btndesign">0</button>
+            <button type="button" class="btndesign specialbtn equalbtn" id="functionofcalculate">=</button>
+        </div>
+    </div>
+    <div class="footer fixed-bottom pb-3 d-flex justify-content-center gap-3 flex-wrap">
+        <span class="name">
+            Made with &#10084; by Prathamesh Dhande
+        </span>
+        <span class="icons">
+            <a href="https://github.com/prathameshdhande22" class="href">
+                <i class="bi bi-github githublogo"></i>
+            </a>
+        </span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
